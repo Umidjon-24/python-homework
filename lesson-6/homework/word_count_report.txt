@@ -1,0 +1,7 @@
+Total words: 10
+Top 5 common words:
+is: 24
+file: 24
+this: 16
+a: 16
+testing: 8
