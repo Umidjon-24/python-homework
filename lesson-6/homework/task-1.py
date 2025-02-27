@@ -1,17 +1,16 @@
 def check(func):
     def wrapper(*args):
-        print("Before")
-        result = func(*args)
-        print("After")
-        return result
+        try:
+            result = func(*args)
+            print(result)
+            return
+        except ZeroDivisionError:
+            print("Can not divide by zero")
+            return
     return wrapper
 
 @check
 def div(a,b):
-    try:
-        c = a/b
-        print(c)
-    except ZeroDivisionError:
-        print("Can not divide by zero")
+    return a/b
 
-div(6,1)
+div(6,2)
