@@ -1,0 +1,40 @@
+{
+    "books": {
+        "Anna Karenina": {
+            "author": {
+                "author": "Lev Tolstoy",
+                "is_borrowed": false
+            },
+            "is_borrowed": false
+        },
+        "Pride and Prejudice": {
+            "author": {
+                "author": "Jane Austin",
+                "is_borrowed": false
+            },
+            "is_borrowed": false
+        },
+        "Idiot": {
+            "author": {
+                "author": "Dostoevsky",
+                "is_borrowed": false
+            },
+            "is_borrowed": false
+        },
+        "Qo'rqma": {
+            "author": "Javlon Jovliyev",
+            "is_borrowed": false
+        }
+    },
+    "members": {
+        "Umidjon": {
+            "borrowed_books": []
+        },
+        "Oxunjon": {
+            "borrowed_books": []
+        },
+        "Umidjon Xusanov": {
+            "borrowed_books": []
+        }
+    }
+}
